@@ -4,8 +4,8 @@ import MyNavBar from './Components/MyNavbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import MyFooter from './Components/MyFooter';
+import ListaSaghe from './Components/ListaSaghe'
 
-import HarryPotter from './Components/HarryPotter';
 import './style.css'
 
 
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <MyNavBar />
      
-      <HarryPotter Lista="batman"/>
-      <HarryPotter Lista="Star Wars"/>
-      <HarryPotter Lista="Lord of the Rings"/>
+      <ListaSaghe Lista="batman"/>
+      <ListaSaghe Lista="Star Wars"/>
+      <ListaSaghe Lista="Lord of the Rings"/>
       <MyFooter/>
     </div>
   );
