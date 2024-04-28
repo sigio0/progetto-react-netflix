@@ -8,14 +8,14 @@ const MyFooter = () =>{
 
 return (
     <footer>
-          <div className="row justify-content-center mt-0 bg-dark">
+          <div className="row justify-content-center mt-0 bg-black">
             <div className="col col-6">
               <div className="row">
                 <div className="col mb-2">
-                  <img className="mx-2"src={facebook}style={{width: "20px"}}></img>
-                  <img className="mx-2"src={instagram}style={{width: "20px"}}></img>
-                  <img className="mx-2"src={twitter}style={{width: "20px"}}></img>
-                  <img className="mx-2" src={youtobe}style={{width: "20px"}}></img>
+                  <img className="mx-2"src={facebook}></img>
+                  <img className="mx-2"src={instagram}></img>
+                  <img className="mx-2"src={twitter}></img>
+                  <img className="mx-2" src={youtobe}></img>
                 </div>
               </div>
               <div

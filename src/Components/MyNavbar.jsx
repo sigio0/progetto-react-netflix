@@ -3,13 +3,14 @@ import logo from '../img/logo.png'
 import bell from '../img/bell.svg'
 import person from '../img/person.svg'
 import search from '../img/searc.svg'
+import { Spinner } from "react-bootstrap";
 
 
 const MyNavBar = () =>{
 return (
     <>
     <nav
-        className="navbar navbar-expand-lg bg-dark"
+        className="navbar navbar-expand-lg bg-black"
         data-bs-theme="dark"
        
       >
@@ -44,6 +45,7 @@ return (
               <li className="nav-item">
                 <a className="nav-link fw-bold" href="#">My List</a>
               </li>
+          
             </ul>
             <div className="d-flex align-items-center">
             <img src={search} className="mx-3"style={{width: "20px"}}alt="My SVG" />

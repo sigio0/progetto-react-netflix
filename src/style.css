@@ -1,9 +1,18 @@
-body {
-    background-color: #221f1f;
-  }
+ body {
+    background-color: #000000;
+  } 
 
   h3,
 h4,
 footer {
   color: #f5f5f1;
+}
+#img-list{
+  height: 330px;
+}
+
+footer img{
+  
+  width: 20px;
+  height: 20px;
 }
