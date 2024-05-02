@@ -4,6 +4,7 @@ import bell from '../img/bell.svg'
 import person from '../img/person.svg'
 import search from '../img/searc.svg'
 import { Spinner } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 const MyNavBar = () =>{
@@ -31,10 +32,10 @@ return (
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active fw-bold" href="#">Home</a>
+              <Link to="/" className="nav-link fw-bold">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">TV Shows</a>
+                <Link to="/tv-shows" className="nav-link fw-bold" href="#">TV Shows</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link fw-bold" href="#">Movies</a>
